@@ -1,0 +1,22 @@
+.header {
+  background-color: #0d0d0d;
+  padding: 4.5rem 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header span {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.header svg + span {
+  color: #4ea8de;
+  margin-left: 0.75rem;
+}
+
+.header span:last-child {
+  color: #5e60ce;
+}
